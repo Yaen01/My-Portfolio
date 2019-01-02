@@ -6,34 +6,34 @@
     <title>Yaen Torres</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
     <header>
       <nav>
         <h1 id="headerLogo"><span>&lt;</span>Yaen Torres<span>/&gt;</span></h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div id="nav-link-grid">
+          <div id="nav-link"><a id="nav-link-a" href="HTML/about.html">About</a></div>
+          <div id="nav-link"><a id="nav-link-a" href="HTML/projects.html">Projects</a></div>
+          <div id="nav-link"><a id="nav-link-a" href="HTML/contact.html">Contact</a></div>
+        </div>
       </nav>
     </header>
     <div class="content">
       <div class="bannerContainer">
-        <img id="banner" src="/IMG/banner.png">
+        <img id="banner" src="IMG/banner.png">
         <div class="aboutContainer">
           <h1 id="about">About</h1>
           <div id="aboutDivider"></div>
           <div id="aboutContent">
-            <img id="portraitCircle" src="/IMG/YaenTorres-c.jpg">
-            <p id="aboutP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <img id="portraitCircle" src="IMG/YaenTorres-c.jpg">
+            <p id="aboutP">Hello, my name Yaen. I am a 17 year old web developer that currently works for the Mullings Group. I was born in Puerto Rico and moved to Providence, Rhode Island to have more learning opportunities. I created this website purely out of HTML and CSS, so people can know more about me and the things that I develop. If you would like to get in touch with me just go to the contact page and send me an email.</p>
           </div>
         </div>
         <div id="languagesContainer">
-            <img id="language" src="/IMG/htmlLogo.png">
-            <img id="language" src="/IMG/cssLogo.png">
-            <img id="language" src="/IMG/jsLogo.png">
+            <img id="language" src="IMG/htmlLogo.png">
+            <img id="language" src="IMG/cssLogo.png">
+            <img id="language" src="IMG/jsLogo.png">
         </div>
         <div id="projectContainer">
           <h1 id="project">Projects</h1>
@@ -60,13 +60,27 @@
           </div>
         </div>
         <div id="contactContainer">
-          <h1 id="contact">Contact</h1>
-          <div id="contactInfoContainer">
-            <p id="contactInfo">Name: Yaen Torres</p>
-            <p id="contactInfo">Email: Yaenltorres@gmail.com</p>
-            <p id="contactInfo">Phone Number: (401)-660-7142</p>
-            <p id="contactInfo">Address: PO Box 99999</p>
-          </div>
+          <div id="contact-page">
+            <h1 id="contact-page-title">Contact</h1>
+            <div id="contact-page-grid">
+                <div id="contact-page-info">
+                    <h2 id="contact-page-info-title">Information</h2>
+                    <h3 id="contact-page-info-details-title">Email</h3>
+                    <h4 id="contact-page-info-details">yaenltorres@gmail.com</h4>
+                    <h3 id="contact-page-info-details-title">Phone</h3>
+                    <h4 id="contact-page-info-details">(401)-000-0000</h4>
+                    <h3 id="contact-page-info-details-title">Media</h3>
+                    <h4 id="contact-page-info-details"><a id="contact-link" href="https://twitter.com/TorresYaen">Twitter</a> | <a id="contact-link" href="https://www.linkedin.com/in/yaen-torres-107849170/">LinkedIn</a></h4>
+                </div>
+                <div id="contact-page-form">
+                    <form>
+                        <input id="contact-page-form-reg" type="text" name="fullName" placeholder="Full Name"><br>
+                        <input id="contact-page-form-reg" type="text" name="topic" placeholder="Topic"><br>
+                        <input id="contact-page-form-ireg" type="text" name="message" placeholder="Message"><br>
+                    </form>
+                </div>
+            </div>
+        </div>
         </div>
       </div>
     </div>
