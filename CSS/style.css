@@ -128,7 +128,7 @@ footer {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 30px;
-  font-size: 17px;
+  font-size: 20px;
   margin: 0 auto;
   float: right;
 }
@@ -288,15 +288,24 @@ footer {
 
 #page-title {
   padding-top: 30px;
-  padding-left: 20px;
+  text-align: center;
   color: #4f93ff;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
-  width: 50%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   border-bottom: 4px solid #D481B5;
   margin-bottom: 20px;
+}
+
+#aboutP-P {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  margin: 0 auto;
+  float: right;
 }
 
 #writing {
@@ -337,6 +346,10 @@ footer {
   #headerLogo {
     text-align: center;
     padding-left: 0%;
+  }
+  
+  #nav-link-a {
+    font-size: 16px;
   }
   
   nav {
@@ -382,6 +395,15 @@ footer {
   #headerLogo {
     text-align: center;
     padding-left: 0%;
+    font-size: 40px;
+  }
+
+  #nav-link-grid {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10px;
   }
   
   #project-grid {
