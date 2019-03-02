@@ -213,45 +213,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
-  animation-duration: 3s;
-  animation-name: slideinrightProjects;
-}
-
-@keyframes slideinrightProjects {
-  from {
-    margin-right: 100%;
-    width: 100%; 
-  }
-
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
-
-#projectBox {
-  max-width: 450px;
-  width: 90%;
-  height: 200px;
-  margin: 0 auto;
-  border-radius: 5px;
-  margin-bottom: 50px;
-  background-color: white;
-  overflow: hidden;
-}
-
-#projectBoxTitle {
-  color: #395FA8;
-  font-size: 25px;
-  text-align: center;
-  padding: 10px;
-}
-
-#projectBoxImage {
   width: 100%;
-  display: block;
 }
-
 
 
 
